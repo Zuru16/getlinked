@@ -1,0 +1,956 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getlinked Tech Hackathon 1.0 | getlinked</title>
+    <link rel="shortcut icon" href="assets/icon/bulb.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- PLUGINS -->
+    <!-- AOS --><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contact" id="contact">
+        <div class="inner">
+
+            <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+            <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+            <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+            <div class="star four"><img src="assets/icon/star-p2.png" alt=""></div>
+
+            <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+            <div class="flare two"><img src="assets/img/flare2.png" alt=""></div>
+
+            <a href="javascript:null" class="closing" onclick="closeContact()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none">
+                    <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_1_749)"/>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_749" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#903AFF"/>
+                        <stop offset="1" stop-color="#FF26B9"/>
+                      </linearGradient>
+                    </defs>
+                </svg>
+                <i class="fas fa-angle-left"></i>
+            </a>
+
+            <div class="info">
+
+                <div class="main-header purp">Get in touch</div>
+    
+                <div class="listing">
+    
+                    <p>Contact <br> Information</p>
+    
+                    <p>
+                        27,Alara Street <br>
+                        Yaba 100012 <br>
+                        Lagos State
+                    </p>
+    
+                    <p>Call Us : <a href="tel:+2347067981819">07067981819</a></p>
+    
+                    <p>
+                        we are open from Monday-Friday <br>
+                        08:00am - 05:00pm
+                    </p>
+    
+                </div>
+    
+                <div class="share">
+                    <div class="head purp"> Share on</div>
+    
+                    <div class="socials">
+                        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="contact-form">
+                
+                <div class="inside">
+
+                    <a href="javascript:null" class="close-contact" onclick="closeContact()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none">
+                            <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_1_749)"/>
+                            <defs>
+                              <linearGradient id="paint0_linear_1_749" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#903AFF"/>
+                                <stop offset="1" stop-color="#FF26B9"/>
+                              </linearGradient>
+                            </defs>
+                        </svg>
+                        <i class="fas fa-angle-left"></i>
+                    </a>
+
+                    <div class="heading purp">
+                        Questions or need assistance?<br>
+                        Let us know  about it!
+                    </div>
+                    <form id="contactForm" action="/hackathon/contact-form">
+                        <input type="text" name="first_name" id="" placeholder="First Name">
+    
+                        <input type="text" name="topic" id="" placeholder="Topic">
+    
+                        <input type="tel" name="phone" id="" placeholder="Phone">
+        
+                        <input type="email" name="email" id="" placeholder="Email">
+        
+                        <textarea name="message" id="" placeholder="Message"></textarea>
+        
+                        <button type="submit" class="cta-btn">submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="register" id="register">
+        <div class="inner">
+
+            <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+            <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+            <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+            <div class="star four"><img src="assets/icon/star-p2.png" alt=""></div>
+
+            <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+            <div class="flare two"><img src="assets/img/flare2.png" alt=""></div>
+
+            <a href="javascript:null" class="closing" onclick="closeRegister()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none">
+                    <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_1_749)"/>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_749" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#903AFF"/>
+                        <stop offset="1" stop-color="#FF26B9"/>
+                      </linearGradient>
+                    </defs>
+                </svg>
+                <i class="fas fa-times"></i>
+            </a>
+
+            <div class="image"><img src="assets/img/register.png" alt=""></div>
+
+            <form class="register-form" action="/hackathon/registration" id="myForm">
+                
+                <div class="inside">
+
+                    <a href="javascript:null" class="close-contact" onclick="closeRegister()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none">
+                            <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_1_749)"/>
+                            <defs>
+                              <linearGradient id="paint0_linear_1_749" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#903AFF"/>
+                                <stop offset="1" stop-color="#FF26B9"/>
+                              </linearGradient>
+                            </defs>
+                        </svg>
+                        <i class="fas fa-angle-left"></i>
+                    </a>
+
+                    <div class="main-header purp">Register</div>
+
+                    <div class="emphasis">
+                        Be part of this movement!
+                        <div class="iconic">
+                            <img src="assets/img/walk2.png" alt="">
+                            <img src="assets/img/walk1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="heading">CREATE YOUR ACCOUNT</div>
+                            <div class="input-tab">
+                                <label for="">Team's Name</label>
+                                <input type="text" name="team_name" id="" placeholder="Enter the name of your group">
+                            </div>
+
+                            <div class="input-tab">
+                                <label for="">Phone</label>
+                                <input type="tel" name="phone_number" id="" placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="input-tab">
+                                <label for="">Email</label>
+                                <input type="email" name="email" id="" placeholder="Enter your email address">
+                            </div>
+
+                            <div class="input-tab">
+                                <label for="">Project Topic</label>
+                                <input type="text" name="project_topic" id="" placeholder="What is your group's project topic">
+                            </div>
+
+                            <div class="input-tab mini">
+                                <label for="">Category</label>
+                                <select name="category" id="categories">
+                                    <option value="Select your group">Select your category</option>
+                                    
+                                </select>
+                            </div>
+
+                            <div class="input-tab mini">
+                                <label for="">Group Size</label>
+                                <select name="group_size" id="groupSize">
+                                    <option value="Select">Select</option>
+                                    
+                                </select>
+                            </div>
+
+                            <div class="prompt">Please review your registration details before submitting</div>
+
+                            <div class="check">
+                                <input type="checkbox" name="privacy_policy_accepted" id="privacyPolicy">
+                                I agreed with the event terms & conditions and privacy policy
+                            </div>
+            
+                            <button type="submit" class="cta-btn">Register Now</button>
+                </div>
+
+            </form>
+
+            <div class="backdrop" id="backdrop"></div>
+
+            <div class="success" id="success">
+
+                <div class="images">
+                    <div class="image one"><img src="assets/img/check.png" alt=""></div>
+                    <div class="image two"><img src="assets/img/success.png" alt=""></div>
+                </div>
+
+                <div class="heading">
+                    Congratulations<br>
+                    you have successfully Registered!
+                </div>
+
+                <p>
+                    Yes, it was easy and you did it!<br>
+                    check your mail box for next step <img src="assets/icon/wink.png" alt="" class="icon">
+                </p>
+
+                <button class="cta-btn" onclick="closeRegister()">Back</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="menu" id="menu">
+
+        <div class="menu-top">
+            <a href="index.html" class="logo no-anime">
+                <div class="part1">get</div>
+                <div class="part2">linked</div>
+            </a>
+
+            <a href="javascript:null" class="close-menu" id="gradientBorder" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none">
+                    <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_1_749)"/>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_749" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#903AFF"/>
+                        <stop offset="1" stop-color="#FF26B9"/>
+                      </linearGradient>
+                    </defs>
+                </svg>
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+
+        <div class="menu-list">
+    
+            <div class="navlinks">
+
+                <a href="#" class="nav-link">Timeline</a>
+                <a href="#" class="nav-link">Overview</a>
+                <a href="#" class="nav-link">FAQs</a>
+                <a href="javascript:null" class="nav-link" onclick="openContact()">Contact</a>
+
+            </div>
+
+            <a href="javascript:null" class="cta-btn" onclick="openRegister()">register</a>
+
+        </div>
+        
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="inner">
+
+            <div id="background" class="background"></div>
+
+            <div class="start">
+            
+                <a href="index.html" class="logo">
+                    <div class="part1">get</div>
+                    <div class="link"><svg xmlns="http://www.w3.org/2000/svg" height="auto" viewBox="0 -960 960 960" width="100%" fill="#fff"><path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z"/></svg></div>
+                    <div class="part2">linked</div>
+                </a>
+    
+            </div>
+    
+            <div class="end">
+    
+                <div class="navlinks">
+    
+                    <a href="#" class="nav-link">Timeline</a>
+                    <a href="#" class="nav-link">Overview</a>
+                    <a href="#" class="nav-link">FAQs</a>
+                    <a href="javascript:null" class="nav-link" id="gradientText" onclick="openContact()">Contact</a>
+    
+                </div>
+    
+                <a href="javascript:null" class="cta-btn" id="gradientBorder" onclick="openRegister()">register</a>
+    
+            </div>
+
+            <div class="menu-btn" onclick="openMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                    <path d="M1.35714 0H8.14286C8.50279 0 8.84799 0.1475 9.1025 0.410051C9.35701 0.672601 9.5 1.0287 9.5 1.4C9.5 1.7713 9.35701 2.1274 9.1025 2.38995C8.84799 2.6525 8.50279 2.8 8.14286 2.8H1.35714C0.997206 2.8 0.652012 2.6525 0.397498 2.38995C0.142984 2.1274 0 1.7713 0 1.4C0 1.0287 0.142984 0.672601 0.397498 0.410051C0.652012 0.1475 0.997206 0 1.35714 0ZM10.8571 11.2H17.6429C18.0028 11.2 18.348 11.3475 18.6025 11.6101C18.857 11.8726 19 12.2287 19 12.6C19 12.9713 18.857 13.3274 18.6025 13.5899C18.348 13.8525 18.0028 14 17.6429 14H10.8571C10.4972 14 10.152 13.8525 9.8975 13.5899C9.64298 13.3274 9.5 12.9713 9.5 12.6C9.5 12.2287 9.64298 11.8726 9.8975 11.6101C10.152 11.3475 10.4972 11.2 10.8571 11.2ZM1.35714 5.6H17.6429C18.0028 5.6 18.348 5.7475 18.6025 6.01005C18.857 6.2726 19 6.6287 19 7C19 7.3713 18.857 7.7274 18.6025 7.98995C18.348 8.2525 18.0028 8.4 17.6429 8.4H1.35714C0.997206 8.4 0.652012 8.2525 0.397498 7.98995C0.142984 7.7274 0 7.3713 0 7C0 6.6287 0.142984 6.2726 0.397498 6.01005C0.652012 5.7475 0.997206 5.6 1.35714 5.6Z" fill="white"/>
+                </svg>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="hero parallax">
+
+        <div class="backdrop"></div>
+
+        <div class="flare one" id="parallax3"></div>
+        <div class="flare two" id="parallax4"></div>
+
+        <div class="hero-image"><img src="assets/img/virtual-screen.png" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="350"></div>
+
+        <div class="atomic"><img src="assets/img/atomic.png" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="650"></div>
+
+        <div class="pro">Igniting a Revolution in HR <span class="null">Innovation <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 255 17" fill="none"><path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/></svg></div></span></div>
+
+        <div class="hero-content">
+
+            <div class="main">
+                <div class="top" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">getlinked Te<span class="null">c <div class="icon"><img src="assets/icon/bulb.png" alt=""></div></span>h</div>
+                <div class="base" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">Hackathon <span class="purp">1.0</span> <span class="icon first"><img src="assets/icon/chain.png" alt=""></span> <span class="icon"><img src="assets/icon/blast.png" alt=""></span></div>
+            </div>
+
+            <div class="emphasis" id="typewriter"></div>
+
+            <a href="javascript:null" class="cta-btn" id="gradientBorder" onclick="openRegister()" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="200">register</a>
+
+        </div>
+
+        <div class="countdown">
+            <div id="countdown"></div>
+        </div>
+
+        <div class="star one" id="parallax5"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two" id="parallax6"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star three" id="parallax7"><img src="assets/icon/star.png" alt=""></div>
+
+    </div>
+    
+    <div class="modded intro">
+
+        <div class="star one" id="parallax8"><img src="assets/icon/star-p2.png" alt=""></div>
+        <div class="star two" id="parallax9"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="arrow" ><img src="assets/icon/arrow.png" alt=""></div>
+
+        <div class="modded-image">
+            <div class="image"><img src="assets/img/intro.png" alt=""></div>
+            <div class="image-text">The Big Idea!</div>
+        </div>
+
+        <div class="writeup">
+
+            <div class="main-header">
+                <div class="top">Introduction to getlinked</div>
+                <div class="base purp">tech Hackathon 1.0</div>
+            </div>
+
+            <div class="content">
+                Our tech hackathon is a melting pot of visionaries, and its purpose is as 
+                clear as day: to shape the future. Whether you're a coding genius, a 
+                design maverick, or a concept wizard, you'll have the chance to transform 
+                your ideas into reality. Solving real-world problems, pushing the boundaries 
+                of technology, and creating solutions that can change the world, 
+                that's what we're all about!
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="modded alt rules">
+
+        <div class="star one" id="parallax10"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two" id="parallax11"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+        <div class="flare two"><img src="assets/img/flare2.png" alt=""></div>
+
+        <div class="modded-image spec">
+            <div class="image"><img src="assets/img/rules.png" alt=""></div>
+        </div>
+
+        <div class="writeup">
+
+            <div class="main-header">
+                <div class="top">Rules and</div>
+                <div class="base purp">Guidelines</div>
+            </div>
+
+            <div class="content">
+                Our tech hackathon is a melting pot of visionaries, and its purpose is as 
+                clear as day: to shape the future. Whether you're a coding genius, a 
+                design maverick, or a concept wizard, you'll have the chance to transform 
+                your ideas into reality. Solving real-world problems, pushing the boundaries 
+                of technology, and creating solutions that can change the world, 
+                that's what we're all about!
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modded judge">
+
+        <div class="star one" id="parallax12"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two" id="parallax13"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three" id="parallax14"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="flare one" id="parallax15"><img src="assets/img/flare.png" alt=""></div>
+        <div class="flare two" id="parallax16"><img src="assets/img/flare2.png" alt=""></div>
+
+        <div class="modded-image spec">
+            <div class="image"><img src="assets/img/judge.png" alt=""></div>
+        </div>
+
+        <div class="writeup">
+
+            <div class="main-header">
+                <div class="top">Judging Criteria</div>
+                <div class="base purp">Key attributes</div>
+            </div>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <b class="pink">Innovation and Creativity</b>: Evaluate the uniqueness and creativity of the
+                        solution. Consider whether it addresses a real-world problem in a novel 
+                        way or introduces innovative features.
+                    </li>
+
+                    <li>
+                        <b class="pink">Functionality</b>: Assess how well the solution works. Does it perform its 
+                        intended functions effectively and without major issues? Judges would
+                        consider the completeness and robustness of the solution.
+                    </li>
+
+                    <li>
+                        <b class="pink">Impact and Relevance</b>: Determine the potential impact of the solution 
+                        in the real world. Does it address a significant problem, and is it relevant 
+                        to the target audience? Judges would assess the potential social, 
+                        economic, or environmental benefits.
+                    </li>
+
+                    <li>
+                        <b class="pink">Technical Complexity</b>: Evaluate the technical sophistication of the solution. 
+                        Judges would consider the complexity of the code, the use of advanced 
+                        technologies or algorithms, and the scalability of the solution.
+                    </li>
+
+                    <li>
+                        <b class="pink">Adherence to Hackathon Rules</b>: Judges will Ensure that the team adhered 
+                        to the rules and guidelines of the hackathon, including deadlines, use of 
+                        specific technologies or APIs, and any other competition-specific requirements.
+                    </li>
+
+                </ul>
+            </div>
+
+            <a href="#" class="cta-btn">Read More</a>
+
+        </div>
+
+    </div>
+
+    <div class="modded alt fs faq">
+
+        <div class="star one"  id="parallax17"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two" id="parallax18"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three" id="parallax19"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="modded-image special">
+            <div class="tops">
+                <div class="topping one"><img src="assets/icon/quest-mark.png" alt=""></div>
+                <div class="topping two"><img src="assets/icon/quest-mark.png" alt=""></div>
+                <div class="topping three"><img src="assets/icon/quest-mark.png" alt=""></div>
+            </div>
+            <div class="image"><img src="assets/img/faq.png" alt=""></div>
+        </div>
+
+        <div class="writeup">
+
+            <div class="main-header">
+                <div class="top">Frequently Asked</div>
+                <div class="base purp">Questions</div>
+            </div>
+
+            <div class="content">
+                <div class="emphasis">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</div>
+
+                <div class="faqlist">
+                    
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">Can I work on a project I started before the hackathon? <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">What happens if I need help during the hackathon? <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">What happens if I don't have an idea for a project? <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">Can I join a team or do I have to come with one? <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">What happens after the hackathon ends <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                    <div class="collapsible" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="question">Can I work on a project I started before the hackathon? <span class="toggle">+</span></div>
+                        <div class="answer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius soluta iusto natus! Aut, omnis! 
+                            Nostrum magnam doloribus dolorem quod dolor. Maiores dolore odit pariatur voluptates doloribus 
+                            sapiente iusto corrupti quam?
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="tip">
+            <div class="main-header">Timeline</div>
+            <div class="emphasis">Here is the breakdown of the time we anticipate using for the upcoming event.</div>
+        </div>
+
+        <div class="lineup">
+
+            <div class="line" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Hackathon Announcement</div>
+                    <p>
+                        The getlinked tech hackathon 1.0 is formally announced
+                            to the general public and teams begin to get ready to register
+                    </p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">1</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+
+            <div class="line alt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Teams Registration begins</div>
+                    <p>
+                        Interested teams can now show their interest in the
+                        getlinked tech hackathon 1.0 2023 by proceeding to register
+                    </p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">2</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+
+            <div class="line" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Teams Registration ends</div>
+                    <p>Interested Participants are no longer Allowed to register</p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">3</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+
+            <div class="line alt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Announcement of the accepted teams and ideas</div>
+                    <p>
+                        All teams whom idea has been accepted into getlinked tech
+                        hackathon 1.0 2023 are formally announced
+                    </p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">4</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+            
+            <div class="line" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Getlinked Hackathon 1.0 Offically Begins</div>
+                    <p>
+                        Accepted teams can now proceed to build their
+                        ground breaking skill driven solutions
+                    </p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">5</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+
+            <div class="line alt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+
+                <div class="write">
+                    <div class="heading purp">Demo Day</div>
+                    <p>
+                        Teams get the opportunity to pitch their projects to judges.
+                        The winner of the hackathon will also be announced on this day
+                    </p>
+                </div>
+
+                <div class="numb">
+                    <div class="vertical"></div>
+                    <div class="number">6</div>
+                </div>
+
+                <div class="date">November 18, 2023</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="prize">
+
+        <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+        <div class="flare two"><img src="assets/img/flare2.png" alt=""></div>
+
+        <div class="ultra tip">
+            <div class="main-header">
+                <div class="top">Prizes and</div>
+                <div class="base purp">Rewards</div>
+            </div>
+
+            <div class="emphasis">Highlight of the prizes or rewards for winners and for participants.</div>
+        </div>
+
+        <div class="image"><img src="assets/img/cup.png" alt="" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="500"></div>
+
+        <div class="content">
+
+            <div class="tip">
+                <div class="main-header">
+                    <div class="top">Prizes and</div>
+                    <div class="base purp">Rewards</div>
+                </div>
+
+                <div class="emphasis">Highlight of the prizes or rewards for winners and for participants.</div>
+            </div>
+
+            <div class="tokens">
+
+                <div class="block" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="150">
+                    
+                    <div class="medal two"><img src="assets/img/silver.png" alt=""></div>
+                    
+                    <div class="head">
+                        <div class="top">2nd</div>
+                        <div class="base">Runner</div>
+                    </div>
+
+                    <div class="amount">N300,000</div>
+
+                </div>
+
+                <div class="block" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="0">
+                    
+                    <div class="medal one"><img src="assets/img/gold.png" alt=""></div>
+                    
+                    <div class="head">
+                        <div class="top">1st</div>
+                        <div class="base">Runner</div>
+                    </div>
+
+                    <div class="amount">N400,000</div>
+
+                </div>
+
+                <div class="block" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="300">
+                    
+                    <div class="medal three"><img src="assets/img/bronze.png" alt=""></div>
+                    
+                    <div class="head">
+                        <div class="top">3rd</div>
+                        <div class="base">Runner</div>
+                    </div>
+
+                    <div class="amount">N150,000</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="partners">
+
+        <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+
+        <div class="tip">
+            <div class="main-header">Partners and Sponsors</div>
+
+            <div class="emphasis">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</div>
+        </div>
+
+        <div class="boxes">
+
+            <div class="box-area">
+                
+                <div class="box"><img src="assets/img/Libertyassured.png" alt="Libertyassured" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+            
+                <div class="box"><img src="assets/img/libertypay.png" alt="libertypay" class="spec" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+                
+                <div class="box"><img src="assets/img/Winwise.png" alt="Winwise" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+                
+                <div class="box"><img src="assets/img/whispersms.png" alt="whispersms" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+                
+                <div class="box"><img src="assets/img/Paybox.png" alt="Paybox" class="spec" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+                
+                <div class="box"><img src="assets/img/VizualPlus.png" alt="VuzualPlus" class="spec" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="policy">
+
+        <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star four"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star five"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="flare one"><img src="assets/img/flare.png" alt=""></div>
+
+        <div class="images">
+            <div class="image one"><img src="assets/img/security.png" alt="security"></div>
+            <div class="image two"><img src="assets/img/lock.png" alt="security"></div>
+        </div>
+
+        <div class="content">
+
+            <div class="tip">
+                <div class="main-header">
+                    <div class="top">Privacy Policy and</div>
+                    <div class="base purp">Terms</div>
+                </div>
+
+                <div class="sub-emphasis">Last updated on September 12, 2023</div>
+
+                <div class="emphasis">
+                    Below are our privacy & policy, which outline a lot of goodies. 
+                    it's our aim to always take of our participant
+                </div>
+            </div>
+
+            <div class="block">
+
+                <div class="text">
+                    At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal information. 
+                    This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you participate in our tech 
+                    hackathon event. By participating in our event, you consent to the practices described in this policy.
+                </div>
+
+                <div class="lister">
+                    
+                    <div class="head">Licensing Policy</div>
+                    <div class="mark">Here are terms of our Standard License:</div>
+
+                    <ul>
+                        <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">The Standard License grants you a non-exclusive right to navigate and register for our event</li>
+                        <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">You are licensed to use the item available at any free source sites, for your project developement</li>
+                    </ul>
+
+                </div>
+
+                <div class="button-container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500"><a href="#" class="cta-btn">Read More</a></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="star one"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star two"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star three"><img src="assets/icon/star.png" alt=""></div>
+        <div class="star four"><img src="assets/icon/star-p.png" alt=""></div>
+        <div class="star five"><img src="assets/icon/star.png" alt=""></div>
+
+        <div class="footing">
+
+            <div class="foot">
+                
+                <a href="index.html" class="logo">
+                    <div class="part1">get</div>
+                    <div class="link"><svg xmlns="http://www.w3.org/2000/svg" height="auto" viewBox="0 -960 960 960" width="100%" fill="#fff"><path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z"/></svg></div>
+                    <div class="part2">linked</div>
+                </a>
+
+                <div class="about">
+                    Getlinked Tech Hackathon is a technology innovation program established by a group of organizations 
+                    with the aim of showcasing young and talented individuals in the field of technology
+                </div>
+
+                <div class="terms">
+                    <a href="#">Terms of use</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+
+            </div>
+
+            <div class="foot">
+
+                <div class="head">useful links</div>
+
+                <a href="#">Overview</a>
+                <a href="#">Timeline</a>
+                <a href="#">FAQs</a>
+                <a href="#">Register</a>
+
+                <div class="linear">
+                    <div class="head">Follow us</div>
+
+                    <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+
+            <div class="foot">
+
+                <div class="head">Contact Us</div>
+
+                <div class="duo">
+                    <div class="icon"><i class="fas fa-phone-volume"></i></div>
+                    <a href="tel:+23467981819">+234 679 81819</a>
+                </div>
+
+                <div class="duo">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <p>
+                        27,Alara Street <br>
+                        Yaba 100012 <br>
+                        Lagos State
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="ending">All rights reserved. © getlinked Ltd.</div>
+
+    </footer>
+
+
+    <!-- PLUGINS -->
+    <!-- JQUERY --><script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME KIT --><script src="https://kit.fontawesome.com/2a538cc06f.js" crossorigin="anonymous"></script>
+    <!-- AOS --><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CUSTOM PAGE JS --><script src="assets/js/main.js"></script>
+</body>
+</html>
